@@ -1,0 +1,77 @@
+
+@font-face {
+  font-family: font;
+  src: url(/Font/NeoSansArabicMedium.ttf)
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+
+.home-section .home-content .bx-menu {
+  margin: 0 15px;
+}
+
+.home-section .home-content .text {
+  font-size: 1;
+}
+
+
+
+.home-section .navbar {
+  background: #fff;
+  z-index: 1;
+}
+
+
+.home-section .nav .nav-link{
+  color: white
+}
+
+.home-section .nav .nav-link:hover {
+  color: black;
+}
+
+.home-section .nav .dropdown-item:hover {
+  background: #009b4f;
+  color: white;
+}
+
+.home-section .nav .scrollspy-example:hover {
+  background: #009b4f;
+  color: white;
+}
+
+.home-section .nav-link {
+  font-family: font;
+}
+
+.home-section .navbar{
+  background-image: linear-gradient(to right, #135934, #428b5e);
+}
+
+.specs-foot {
+ color: black;
+
+}
+
+.specs-foot .text-foot{
+  color: black;
+}
+
+.specs-foot .des-foot {
+  color: black;
+}
+
+.specs-foot .inc {
+  color: black;
+}
+
+.foot {
+  background-color: #f5f5f5;
+}

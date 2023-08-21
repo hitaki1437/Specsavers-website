@@ -1,0 +1,52 @@
+@font-face {
+  font-family: poppins1;
+  src: url(/Font/poppins/Poppins-Medium.otf)
+}
+
+.thumbnail-gal {
+  background-color: #f5f5f5;
+
+}
+
+.thumbnail-gal .celeb-btn {
+  position: relative;
+  width: 200px;
+  text-align: center;
+  background: #428b5e;
+  margin-left: 10px;
+  text-decoration: none;
+  padding: 9px 15px;
+  color: white;
+  overflow: hidden;
+  border-radius: 30px;
+  text-decoration: none;
+  font-family: poppins1;
+}
+
+.thumbnail-gal .celeb-btn span{
+  position: relative;
+ 
+
+}
+
+.thumbnail-gal .celeb-btn::before {
+  content: '';
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  background: white;
+  border-radius: 50%;
+  transition: width 0.5s, height 0.5s;
+  font-family: poppins;
+}
+
+.thumbnail-gal .celeb-btn:hover::before {
+  width: 370px;
+  height: 370px;
+}
+
+.thumbnail-gal .celeb-btn:hover {
+  color: black;
+
+}

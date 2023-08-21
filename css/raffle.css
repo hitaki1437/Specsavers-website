@@ -1,0 +1,23 @@
+@font-face {
+  font-family: poppin;
+  src: url(/Font/poppins/Poppins-SemiBold.otf)
+}
+
+@font-face {
+  font-family: poppin-regular;
+  src: url(/Font/poppins/Poppins-Regular.otf)
+}
+
+
+.raffle-promo {
+  background-image: linear-gradient(to right, #135934, #428b5e);
+}
+
+.raffle-promo .raffle-text {
+  color: white;
+  font-family: poppin;
+}
+
+.raffle-promo .raffle-des {
+  font-family: poppin-regular;
+}

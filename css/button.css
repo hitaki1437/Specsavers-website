@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#banner .btnn {
+  position: relative;
+  display: inline-flex;
+  padding: 10px 30px;
+  background: #009b4f;
+  color: white;
+  overflow: hidden;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+#banner .btnn span {
+  position: relative;
+  
+}
+
+#banner .btnn::before {
+  content: '';
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  background: white;
+  border-radius: 50%;
+  transition: width 0.5s, height 0.5s;
+
+}
+
+#banner .btnn:hover::before {
+  width: 200px;
+  height: 200px;
+}
+
+#banner .btnn:hover {
+  color: black;
+}
+
+#services .btn {
+  position: relative;
+  display: inline-flex;
+  padding: 10px 20px;
+  color: white;
+  overflow: hidden;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+#services .btn span{
+  position: relative;
+ 
+
+}
+
+#services .btn::before {
+  content: '';
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  background: white;
+  border-radius: 50%;
+  transition: width 0.5s, height 0.5s;
+
+}
+
+#services .btn:hover::before {
+  width: 370px;
+  height: 370px;
+}
+
+#services .btn:hover {
+  color: black;
+
+}
+
+
+.specs-foot  .btn i{
+  z-index: 1;
+
+}
+
+.specs-foot .btn i:hover {
+  color: black;
+
+}
+
+.subs.btn button {
+  z-index: 1;
+
+}
+
+.subs .btn button:hover {
+  color: black;
+
+}
+
+.subs .cribe {
+  font-style: normal;
+}
+
+
+
+
+
